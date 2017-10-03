@@ -1,0 +1,58 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2017-10-03T10:08:14+00:00
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 21
+
+Apache Licensed: 21
+Generated Documents: 0
+
+JavaDocs are generated and so license header is optional
+Generated files do not required license headers
+
+0 Unknown Licenses
+
+*******************************
+
+Unapproved licenses:
+
+
+*******************************
+
+Archives:
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require AL headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc will be marked N
+  AL    /mnt/plugin-atlas/pom.xml
+  AL    /mnt/plugin-atlas/conf/ranger-atlas-audit-changes.cfg
+  AL    /mnt/plugin-atlas/conf/ranger-policymgr-ssl-changes.cfg
+  AL    /mnt/plugin-atlas/conf/ranger-policymgr-ssl.xml
+  AL    /mnt/plugin-atlas/conf/ranger-atlas-security.xml
+  AL    /mnt/plugin-atlas/conf/ranger-atlas-audit.xml
+  AL    /mnt/plugin-atlas/conf/ranger-atlas-security-changes.cfg
+  AL    /mnt/plugin-atlas/template/configuration.xml
+  AL    /mnt/plugin-atlas/scripts/install.properties
+  AL    /mnt/plugin-atlas/src/test/resource/log4j.properties
+  AL    /mnt/plugin-atlas/src/main/java/org/apache/ranger/services/atlas/json/model/ResourceOperationResponse.java
+  AL    /mnt/plugin-atlas/src/main/java/org/apache/ranger/services/atlas/json/model/ResourceEntityResponse.java
+  AL    /mnt/plugin-atlas/src/main/java/org/apache/ranger/services/atlas/json/model/ResourceTaxonomyResponse.java
+  AL    /mnt/plugin-atlas/src/main/java/org/apache/ranger/services/atlas/json/model/ResourceTermResponse.java
+  AL    /mnt/plugin-atlas/src/main/java/org/apache/ranger/services/atlas/json/model/ResourceTypeResponse.java
+  AL    /mnt/plugin-atlas/src/main/java/org/apache/ranger/services/atlas/client/AtlasClient.java
+  AL    /mnt/plugin-atlas/src/main/java/org/apache/ranger/services/atlas/client/AtlasResourceMgr.java
+  AL    /mnt/plugin-atlas/src/main/java/org/apache/ranger/services/atlas/client/AtlasConnectionMgr.java
+  AL    /mnt/plugin-atlas/src/main/java/org/apache/ranger/services/atlas/RangerServiceAtlas.java
+  AL    /mnt/plugin-atlas/src/main/java/org/apache/ranger/authorization/atlas/authorizer/RangerAtlasResource.java
+  AL    /mnt/plugin-atlas/src/main/java/org/apache/ranger/authorization/atlas/authorizer/RangerAtlasAuthorizer.java
+ 
+*****************************************************
+ Printing headers for files without AL header...
+ 
+ 

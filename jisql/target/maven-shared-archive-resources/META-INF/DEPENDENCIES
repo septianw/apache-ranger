@@ -1,0 +1,17 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Jdbc SQL Connector
+
+
+From: 'an unknown organization'
+  - JOpt Simple (http://jopt-simple.sourceforge.net) net.sf.jopt-simple:jopt-simple:jar:3.2
+    License: The MIT License  (http://www.opensource.org/licenses/mit-license.php)
+  - Java CVS Reader and Writer (http://javacsv.sourceforge.net/) net.sourceforge.javacsv:javacsv:jar:2.0
+    License: GNU Library or Lesser General Public License  (http://www.gnu.org/licenses/lgpl.html)
+
+
+
+

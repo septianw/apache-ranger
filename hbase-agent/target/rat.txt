@@ -1,0 +1,76 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2017-10-03T08:59:14+00:00
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 39
+
+Apache Licensed: 39
+Generated Documents: 0
+
+JavaDocs are generated and so license header is optional
+Generated files do not required license headers
+
+0 Unknown Licenses
+
+*******************************
+
+Unapproved licenses:
+
+
+*******************************
+
+Archives:
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require AL headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc will be marked N
+  AL    /mnt/hbase-agent/pom.xml
+  AL    /mnt/hbase-agent/disable-conf/hbase-site-changes.cfg
+  AL    /mnt/hbase-agent/conf/ranger-policymgr-ssl-changes.cfg
+  AL    /mnt/hbase-agent/conf/ranger-hbase-audit-changes.cfg
+  AL    /mnt/hbase-agent/conf/ranger-hbase-audit.xml
+  AL    /mnt/hbase-agent/conf/ranger-hbase-security.xml
+  AL    /mnt/hbase-agent/conf/ranger-policymgr-ssl.xml
+  AL    /mnt/hbase-agent/conf/hbase-site-changes.cfg
+  AL    /mnt/hbase-agent/conf/ranger-hbase-security-changes.cfg
+  AL    /mnt/hbase-agent/scripts/install.properties
+  AL    /mnt/hbase-agent/scripts/install.sh
+  AL    /mnt/hbase-agent/scripts/uninstall.sh
+  AL    /mnt/hbase-agent/src/test/resources/log4j.properties
+  AL    /mnt/hbase-agent/src/test/resources/ranger-hbase-security.xml
+  AL    /mnt/hbase-agent/src/test/java/org/apache/ranger/services/hbase/TestRangerServiceHBase.java
+  AL    /mnt/hbase-agent/src/test/java/org/apache/ranger/authorization/hbase/TestPolicyEngine.java
+  AL    /mnt/hbase-agent/src/test/java/org/apache/ranger/authorization/hbase/RangerAuthorizationFilterTest.java
+  AL    /mnt/hbase-agent/src/test/java/org/apache/ranger/authorization/hbase/HbaseAuthUtilsImplTest.java
+  AL    /mnt/hbase-agent/src/test/java/org/apache/ranger/authorization/hbase/HBaseRangerAuthorizationTest.java
+  AL    /mnt/hbase-agent/src/test/java/org/apache/ranger/authorization/hbase/RangerAuthorizationCoprocessorTest.java
+  AL    /mnt/hbase-agent/src/test/java/org/apache/ranger/authorization/hbase/AuthorizationSessionTest.java
+  AL    /mnt/hbase-agent/src/test/java/org/apache/ranger/authorization/hbase/RangerAdminClientImpl.java
+  AL    /mnt/hbase-agent/src/test/java/org/apache/ranger/authorization/hbase/ColumnIteratorTest.java
+  AL    /mnt/hbase-agent/src/main/java/org/apache/ranger/services/hbase/client/HBaseResourceMgr.java
+  AL    /mnt/hbase-agent/src/main/java/org/apache/ranger/services/hbase/client/HBaseClient.java
+  AL    /mnt/hbase-agent/src/main/java/org/apache/ranger/services/hbase/client/HBaseConnectionMgr.java
+  AL    /mnt/hbase-agent/src/main/java/org/apache/ranger/services/hbase/RangerServiceHBase.java
+  AL    /mnt/hbase-agent/src/main/java/org/apache/ranger/authorization/hbase/HbaseUserUtils.java
+  AL    /mnt/hbase-agent/src/main/java/org/apache/ranger/authorization/hbase/HbaseFactory.java
+  AL    /mnt/hbase-agent/src/main/java/org/apache/ranger/authorization/hbase/RangerAuthorizationCoprocessorBase.java
+  AL    /mnt/hbase-agent/src/main/java/org/apache/ranger/authorization/hbase/ColumnIterator.java
+  AL    /mnt/hbase-agent/src/main/java/org/apache/ranger/authorization/hbase/HbaseAuthUtils.java
+  AL    /mnt/hbase-agent/src/main/java/org/apache/ranger/authorization/hbase/HbaseAuthUtilsImpl.java
+  AL    /mnt/hbase-agent/src/main/java/org/apache/ranger/authorization/hbase/HbaseAuditHandlerImpl.java
+  AL    /mnt/hbase-agent/src/main/java/org/apache/ranger/authorization/hbase/HbaseUserUtilsImpl.java
+  AL    /mnt/hbase-agent/src/main/java/org/apache/ranger/authorization/hbase/AuthorizationSession.java
+  AL    /mnt/hbase-agent/src/main/java/org/apache/ranger/authorization/hbase/RangerAuthorizationCoprocessor.java
+  AL    /mnt/hbase-agent/src/main/java/org/apache/ranger/authorization/hbase/HbaseAuditHandler.java
+  AL    /mnt/hbase-agent/src/main/java/org/apache/ranger/authorization/hbase/RangerAuthorizationFilter.java
+ 
+*****************************************************
+ Printing headers for files without AL header...
+ 
+ 

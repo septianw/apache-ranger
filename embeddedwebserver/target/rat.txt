@@ -1,0 +1,44 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2017-10-03T08:43:20+00:00
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 7
+
+Apache Licensed: 7
+Generated Documents: 0
+
+JavaDocs are generated and so license header is optional
+Generated files do not required license headers
+
+0 Unknown Licenses
+
+*******************************
+
+Unapproved licenses:
+
+
+*******************************
+
+Archives:
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require AL headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc will be marked N
+  AL    /mnt/embeddedwebserver/pom.xml
+  AL    /mnt/embeddedwebserver/scripts/ranger-admin-initd
+  AL    /mnt/embeddedwebserver/scripts/ranger-admin-services.sh
+  AL    /mnt/embeddedwebserver/scripts/stop-ranger-admin.sh
+  AL    /mnt/embeddedwebserver/scripts/start-ranger-admin.sh
+  AL    /mnt/embeddedwebserver/src/main/java/org/apache/ranger/server/tomcat/StopEmbeddedServer.java
+  AL    /mnt/embeddedwebserver/src/main/java/org/apache/ranger/server/tomcat/EmbeddedServer.java
+ 
+*****************************************************
+ Printing headers for files without AL header...
+ 
+ 

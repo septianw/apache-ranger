@@ -1,0 +1,209 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Knox Security Plugin Shim
+
+
+From: 'an unknown organization'
+  - ZkClient (https://github.com/sgroschupf/zkclient) com.101tec:zkclient:jar:0.8
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - FindBugs-jsr305 (http://findbugs.sourceforge.net/) com.google.code.findbugs:jsr305:jar:1.3.9
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Guava: Google Core Libraries for Java (http://code.google.com/p/guava-libraries/guava) com.google.guava:guava:jar:11.0.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - json-path (http://code.google.com/p/json-path/) com.jayway.jsonpath:json-path:bundle:0.9.1
+    License: Apache 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Metrics Core Library (http://metrics.codahale.com/metrics-core/) com.yammer.metrics:metrics-core:jar:2.2.0
+    License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - JLine (http://jline.sourceforge.net) jline:jline:jar:0.9.94
+    License: BSD  (LICENSE.txt)
+  - LZ4 and xxHash (https://github.com/jpountz/lz4-java) net.jpountz.lz4:lz4:jar:1.3.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - JOpt Simple (http://pholser.github.com/jopt-simple) net.sf.jopt-simple:jopt-simple:jar:4.9
+    License: The MIT License  (http://www.opensource.org/licenses/mit-license.php)
+  - Apache Kafka (http://kafka.apache.org) org.apache.kafka:kafka-clients:jar:0.10.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Kafka (http://kafka.apache.org) org.apache.kafka:kafka_2.10:jar:0.10.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - zookeeper  org.apache.zookeeper:zookeeper:pom:3.4.6
+
+  - Javassist (http://www.javassist.org/) org.javassist:javassist:bundle:3.18.1-GA
+    License: MPL 1.1  (http://www.mozilla.org/MPL/MPL-1.1.html)    License: LGPL 2.1  (http://www.gnu.org/licenses/lgpl-2.1.html)    License: Apache License 2.0  (http://www.apache.org/licenses/)
+  - Noggit (http://github.com/yonik/noggit) org.noggit:noggit:jar:0.6
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - oro  oro:oro:jar:2.0.8
+
+
+From: 'Apache Software Foundation' (http://www.apache.org)
+  - Apache Log4j (http://logging.apache.org/log4j/1.2/) log4j:log4j:bundle:1.2.17
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Hadoop Common  org.apache.hadoop:hadoop-common:jar:2.2.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - gateway-i18n (http://knox.apache.org/gateway-i18n/) org.apache.knox:gateway-i18n:jar:0.5.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - gateway-spi (http://knox.apache.org/gateway-spi/) org.apache.knox:gateway-spi:jar:0.5.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - gateway-util-common (http://knox.apache.org/gateway-util-common/) org.apache.knox:gateway-util-common:jar:0.5.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - gateway-util-urltemplate (http://knox.apache.org/gateway-util-urltemplate/) org.apache.knox:gateway-util-urltemplate:jar:0.5.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Chemouni Uriel' (http://www.minidev.net/)
+  - JSON Small and Fast Parser (http://json-smart/) net.minidev:json-smart:bundle:1.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Codehaus' (http://www.codehaus.org/)
+  - Woodstox (http://woodstox.codehaus.org) org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Eclipse.org - EclipseLink Project' (http://www.eclipse.org/eclipselink)
+  - SDO API (http://www.eclipse.org/eclipselink) org.eclipse.persistence:commonj.sdo:jar:2.1.1
+    License: Eclipse Public License v1.0  (http://www.eclipse.org/legal/epl-v10.html)    License: Eclipse Distribution License v. 1.0  (http://www.eclipse.org/org/documents/edl-v10.php)
+  - EclipseLink (non-OSGi) (http://www.eclipse.org/eclipselink) org.eclipse.persistence:eclipselink:jar:2.5.2
+    License: Eclipse Public License v1.0  (http://www.eclipse.org/legal/epl-v10.html)    License: Eclipse Distribution License v. 1.0  (http://www.eclipse.org/org/documents/edl-v10.php)
+  - Javax Persistence (http://www.eclipse.org/eclipselink) org.eclipse.persistence:javax.persistence:jar:2.1.0
+    License: Eclipse Public License v1.0  (http://www.eclipse.org/legal/epl-v10.html)    License: Eclipse Distribution License v. 1.0  (http://www.eclipse.org/org/documents/edl-v10.php)
+
+From: 'FasterXML' (http://fasterxml.com)
+  - Jackson (http://jackson.codehaus.org) org.codehaus.jackson:jackson-core-asl:jar:1.9.13
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - JAX-RS provider for JSON content type (http://jackson.codehaus.org) org.codehaus.jackson:jackson-jaxrs:jar:1.9.13
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)    License: GNU Lesser General Public License (LGPL), Version 2.1  (http://www.fsf.org/licensing/licenses/lgpl.txt)
+  - Data Mapper for Jackson (http://jackson.codehaus.org) org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'FasterXML' (http://fasterxml.com/)
+  - Jackson-annotations (http://wiki.fasterxml.com/JacksonHome) com.fasterxml.jackson.core:jackson-annotations:jar:2.2.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)    License: GNU Lesser General Public License, Version 2.1  (http://www.gnu.org/licenses/lgpl-2.1.html)
+  - Jackson-core (http://wiki.fasterxml.com/JacksonHome) com.fasterxml.jackson.core:jackson-core:jar:2.2.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)    License: GNU Lesser General Public License, Version 2.1  (http://www.gnu.org/licenses/lgpl-2.1.html)
+  - jackson-databind (http://wiki.fasterxml.com/JacksonHome) com.fasterxml.jackson.core:jackson-databind:jar:2.2.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)    License: GNU Lesser General Public License, Version 2.1  (http://www.gnu.org/licenses/lgpl-2.1.html)
+
+From: 'fasterxml.com' (http://fasterxml.com)
+  - Stax2 API (http://wiki.fasterxml.com/WoodstoxStax2) org.codehaus.woodstox:stax2-api:bundle:3.1.4
+    License: The BSD License  (http://www.opensource.org/licenses/bsd-license.php)
+
+From: 'GlassFish Community' (https://glassfish.dev.java.net)
+  - Java Servlet API (http://servlet-spec.java.net) javax.servlet:javax.servlet-api:jar:3.1.0
+    License: CDDL + GPLv2 with classpath exception  (https://glassfish.dev.java.net/nonav/public/CDDL+GPL.html)
+  - OSGi resource locator bundle - used by various API providers that rely on META-INF/services mechanism to locate providers. (http://glassfish.org/osgi-resource-locator/) org.glassfish.hk2:osgi-resource-locator:jar:1.0.1
+    License: CDDL + GPLv2 with classpath exception  (https://glassfish.dev.java.net/nonav/public/CDDL+GPL.html)
+
+From: 'GlassFish Community' (https://glassfish.java.net)
+  - javax.annotation API (http://jcp.org/en/jsr/detail?id=250) javax.annotation:javax.annotation-api:jar:1.2
+    License: CDDL + GPLv2 with classpath exception  (https://glassfish.dev.java.net/nonav/public/CDDL+GPL.html)
+
+From: 'Google, Inc.' (http://www.google.com)
+  - Gson (http://code.google.com/p/google-gson/) com.google.code.gson:gson:jar:2.2.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'JBoss by Red Hat' (http://www.jboss.org)
+  - ShrinkWrap API (http://www.jboss.org/shrinkwrap-api) org.jboss.shrinkwrap:shrinkwrap-api:jar:1.0.1
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - ShrinkWrap Implementation Base (http://www.jboss.org/shrinkwrap-impl-base) org.jboss.shrinkwrap:shrinkwrap-impl-base:jar:1.0.1
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - ShrinkWrap SPI (http://www.jboss.org/shrinkwrap-spi) org.jboss.shrinkwrap:shrinkwrap-spi:jar:1.0.1
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - ShrinkWrap Descriptors API Base (http://www.jboss.org/shrinkwrap-descriptors-api-base) org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-base:jar:2.0.0-alpha-4
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - ShrinkWrap Descriptors Generated Java EE API (http://www.jboss.org/shrinkwrap-descriptors-api-javaee) org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-javaee:jar:2.0.0-alpha-4
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - ShrinkWrap Descriptors Implementation (http://www.jboss.org/shrinkwrap-descriptors-impl-base) org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-impl-base:jar:2.0.0-alpha-4
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - ShrinkWrap Descriptors Generated Java EE Impl (http://www.jboss.org/shrinkwrap-descriptors-impl-javaee) org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-impl-javaee:jar:2.0.0-alpha-4
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - ShrinkWrap Descriptors SPI (http://www.jboss.org/shrinkwrap-descriptors-spi) org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-spi:jar:2.0.0-alpha-4
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'LAMP/EPFL' (http://lamp.epfl.ch/)
+  - Scala Library (http://www.scala-lang.org/) org.scala-lang:scala-library:jar:2.10.6
+    License: BSD-like  (http://www.scala-lang.org/downloads/license.html)
+
+From: 'Mort Bay Consulting' (http://www.mortbay.com)
+  - Jetty Orbit :: Servlet API (http://www.eclipse.org/jetty/jetty-orbit/javax.servlet) org.eclipse.jetty.orbit:javax.servlet:orbit:3.0.0.v201112011016
+    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (http://www.eclipse.org/org/documents/epl-v10.php)
+
+From: 'Oracle Corporation' (http://www.oracle.com)
+  - HK2 API module (https://hk2.java.net/hk2-api) org.glassfish.hk2:hk2-api:jar:2.2.0
+    License: CDDL + GPLv2 with classpath exception  (https://glassfish.java.net/nonav/public/CDDL+GPL_1_1.html)
+  - ServiceLocator Default Implementation (https://hk2.java.net/hk2-locator) org.glassfish.hk2:hk2-locator:jar:2.2.0
+    License: CDDL + GPLv2 with classpath exception  (https://glassfish.java.net/nonav/public/CDDL+GPL_1_1.html)
+  - HK2 Implementation Utilities (https://hk2.java.net/hk2-utils) org.glassfish.hk2:hk2-utils:jar:2.2.0
+    License: CDDL + GPLv2 with classpath exception  (https://glassfish.java.net/nonav/public/CDDL+GPL_1_1.html)
+  - aopalliance version 1.0 repackaged as a module (https://hk2.java.net/external/aopalliance-repackaged) org.glassfish.hk2.external:aopalliance-repackaged:jar:2.2.0
+    License: CDDL + GPLv2 with classpath exception  (https://glassfish.java.net/nonav/public/CDDL+GPL_1_1.html)
+  - Injection API (JSR 330) version 1 repackaged as OSGi bundle (https://hk2.java.net/external/javax.inject) org.glassfish.hk2.external:javax.inject:jar:2.2.0
+    License: CDDL + GPLv2 with classpath exception  (https://glassfish.java.net/nonav/public/CDDL+GPL_1_1.html)
+
+From: 'Oracle Corporation' (http://www.oracle.com/)
+  - jersey-bundle (https://jersey.java.net/jersey-bundle/) com.sun.jersey:jersey-bundle:jar:1.17.1
+    License: CDDL 1.1  (http://glassfish.java.net/public/CDDL+GPL_1_1.html)    License: GPL2 w/ CPE  (http://glassfish.java.net/public/CDDL+GPL_1_1.html)
+  - javax.ws.rs-api (http://jax-rs-spec.java.net) javax.ws.rs:javax.ws.rs-api:jar:2.0
+    License: CDDL 1.1  (http://glassfish.java.net/public/CDDL+GPL_1_1.html)    License: GPL2 w/ CPE  (http://glassfish.java.net/public/CDDL+GPL_1_1.html)
+  - jersey-repackaged-guava (https://jersey.java.net/project/project/jersey-guava/) org.glassfish.jersey.bundles.repackaged:jersey-guava:bundle:2.6
+    License: CDDL+GPL License  (http://glassfish.java.net/public/CDDL+GPL_1_1.html)
+  - jersey-core-client (https://jersey.java.net/jersey-client/) org.glassfish.jersey.core:jersey-client:jar:2.6
+    License: CDDL+GPL License  (http://glassfish.java.net/public/CDDL+GPL_1_1.html)
+  - jersey-core-common (https://jersey.java.net/jersey-common/) org.glassfish.jersey.core:jersey-common:jar:2.6
+    License: CDDL+GPL License  (http://glassfish.java.net/public/CDDL+GPL_1_1.html)
+
+From: 'QOS.ch' (http://www.qos.ch)
+  - JCL 1.1.1 implemented over SLF4J (http://www.slf4j.org) org.slf4j:jcl-over-slf4j:jar:1.7.7
+    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+  - SLF4J API Module (http://www.slf4j.org) org.slf4j:slf4j-api:jar:1.7.5
+    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+  - SLF4J LOG4J-12 Binding (http://www.slf4j.org) org.slf4j:slf4j-log4j12:jar:1.6.6
+    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+
+From: 'Sun Microsystems, Inc' (http://www.sun.com/)
+  - jsr311-api (https://jsr311.dev.java.net) javax.ws.rs:jsr311-api:jar:1.1.1
+    License: CDDL License  (http://www.opensource.org/licenses/cddl1.php)
+
+From: 'The Apache Software Foundation' (http://jakarta.apache.org)
+  - Jakarta Commons Net (http://jakarta.apache.org/commons/${pom.artifactId.substring(8)}/) commons-net:commons-net:jar:1.4.1
+    License: The Apache Software License, Version 2.0  (/LICENSE.txt)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Commons Codec (http://commons.apache.org/codec/) commons-codec:commons-codec:jar:1.6
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons IO (http://commons.apache.org/io/) commons-io:commons-io:jar:2.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Commons Logging (http://commons.apache.org/proper/commons-logging/) commons-logging:commons-logging:jar:1.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - ApacheDS I18n (http://directory.apache.org/apacheds/1.5/apacheds-i18n) org.apache.directory.server:apacheds-i18n:bundle:2.0.0-M5
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - ApacheDS JDBM implementation (http://directory.apache.org/apacheds/1.5/apacheds-jdbm) org.apache.directory.server:apacheds-jdbm:bundle:2.0.0-M5
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - HttpClient (http://hc.apache.org/httpcomponents-client) org.apache.httpcomponents:httpclient:jar:4.2.5
+    License: Apache License  (LICENSE.txt)
+  - HttpCore (http://hc.apache.org/httpcomponents-core-ga) org.apache.httpcomponents:httpcore:jar:4.2.4
+    License: Apache License  (LICENSE.txt)
+  - Apache HttpClient Mime (http://hc.apache.org/httpcomponents-client) org.apache.httpcomponents:httpmime:jar:4.5.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Solr Solrj (http://lucene.apache.org/solr-parent/solr-solrj) org.apache.solr:solr-solrj:jar:5.5.1
+    License: Apache 2  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Apache Software Foundation' (https://www.apache.org/)
+  - ranger-plugin-classloader (http://maven.apache.org) org.apache.ranger:ranger-plugin-classloader:jar:0.7.1
+    License: Apache 2.0 License  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Audit Component (http://ranger.apache.org/ranger-plugins-audit/) org.apache.ranger:ranger-plugins-audit:jar:0.7.1
+    License: Apache 2.0 License  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Common library for Plugins (http://ranger.apache.org/ranger-plugins-common/) org.apache.ranger:ranger-plugins-common:jar:0.7.1
+    License: Apache 2.0 License  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Credential Support (http://ranger.apache.org/ranger-plugins-cred/) org.apache.ranger:ranger-plugins-cred:jar:0.7.1
+    License: Apache 2.0 License  (http://www.apache.org/licenses/LICENSE-2.0.html)
+
+From: 'The Netty Project' (http://netty.io/)
+  - The Netty Project (http://netty.io/) io.netty:netty:bundle:3.7.0.Final
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+
+From: 'xerial.org'
+  - snappy-java (https://github.com/xerial/snappy-java) org.xerial.snappy:snappy-java:bundle:1.1.2.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

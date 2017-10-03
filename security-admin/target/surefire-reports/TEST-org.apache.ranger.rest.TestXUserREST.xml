@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.ranger.rest.TestXUserREST" time="0.157" tests="112" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.141-b15"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/mnt"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/mnt"/>
+    <property name="java.runtime.version" value="1.8.0_141-8u141-b15-1~deb9u1-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/usr/share/maven/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="skipTests" value="false"/>
+    <property name="os.version" value="4.4.0-96-generic"/>
+    <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native/linux64"/>
+    <property name="user.home" value="/root"/>
+    <property name="user.timezone" value="Etc/UTC"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="root"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -DskipTests=false clean compile package install assembly:assembly"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_141"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="test100deleteUsersByUserNameNull" classname="org.apache.ranger.rest.TestXUserREST" time="0.004"/>
+  <testcase name="test101deleteUsersByUserNameNull" classname="org.apache.ranger.rest.TestXUserREST" time="0.013"/>
+  <testcase name="test102deleteUsersByUserNameSetValueNull" classname="org.apache.ranger.rest.TestXUserREST" time="0.002"/>
+  <testcase name="test103deleteUsersByUserNameListNull" classname="org.apache.ranger.rest.TestXUserREST" time="0.005"/>
+  <testcase name="test104deleteUsersByUserNameListGetListNull" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test105deleteUsersByUserNameNull" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test106deleteGroupsByGroupName" classname="org.apache.ranger.rest.TestXUserREST" time="0.002"/>
+  <testcase name="test107GroupsByGroupNameNull" classname="org.apache.ranger.rest.TestXUserREST" time="0.002"/>
+  <testcase name="test108deleteGroupsByGroupNameNull" classname="org.apache.ranger.rest.TestXUserREST" time="0.002"/>
+  <testcase name="test109deleteGroupsByGroupNameSetValueNull" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test10deleteXGroupNotEmpty" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test110deleteGroupsByGroupNameListNull" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test111deleteUsersByUserNameListGetListNull" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test112deleteUsersByUserNameNull" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test11searchXGroups" classname="org.apache.ranger.rest.TestXUserREST" time="0.004"/>
+  <testcase name="test12countXGroups" classname="org.apache.ranger.rest.TestXUserREST" time="0.002"/>
+  <testcase name="test13getXUser" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test14secureGetXUser" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test15createXUser" classname="org.apache.ranger.rest.TestXUserREST" time="0"/>
+  <testcase name="test16createXUserGroupFromMap" classname="org.apache.ranger.rest.TestXUserREST" time="0"/>
+  <testcase name="test17secureCreateXUser" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test18updateXUser" classname="org.apache.ranger.rest.TestXUserREST" time="0"/>
+  <testcase name="test19secureUpdateXUser" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test1getXGroup" classname="org.apache.ranger.rest.TestXUserREST" time="0"/>
+  <testcase name="test20modifyUserVisibility" classname="org.apache.ranger.rest.TestXUserREST" time="0.002"/>
+  <testcase name="test21deleteXUser" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test22deleteXUserFalse" classname="org.apache.ranger.rest.TestXUserREST" time="0.002"/>
+  <testcase name="test23deleteXUserNotEmpty" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test24searchXUsers" classname="org.apache.ranger.rest.TestXUserREST" time="0.004"/>
+  <testcase name="test25countXUsers" classname="org.apache.ranger.rest.TestXUserREST" time="0.002"/>
+  <testcase name="test26getXGroupUser" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test27createXGroupUser" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test28updateXGroupUser" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test29deleteXGroupUser" classname="org.apache.ranger.rest.TestXUserREST" time="0"/>
+  <testcase name="test2secureGetXGroup" classname="org.apache.ranger.rest.TestXUserREST" time="0"/>
+  <testcase name="test30searchXGroupUsers" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test31countXGroupUserst" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test32getXGroupGroup" classname="org.apache.ranger.rest.TestXUserREST" time="0"/>
+  <testcase name="test33createXGroupGroup" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test34updateXGroupGroup" classname="org.apache.ranger.rest.TestXUserREST" time="0"/>
+  <testcase name="test35deleteXGroupGroup" classname="org.apache.ranger.rest.TestXUserREST" time="0.005"/>
+  <testcase name="test36searchXGroupGroups" classname="org.apache.ranger.rest.TestXUserREST" time="0.002"/>
+  <testcase name="test37countXGroupGroups" classname="org.apache.ranger.rest.TestXUserREST" time="0.004"/>
+  <testcase name="test38getXPermMapVXResourceNull" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test39getXPermMapNotNull" classname="org.apache.ranger.rest.TestXUserREST" time="0.002"/>
+  <testcase name="test3createXGroup" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test40getXPermMapNull" classname="org.apache.ranger.rest.TestXUserREST" time="0"/>
+  <testcase name="test41createXPermMap" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test42createXPermMapNull" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test43createXPermMapNullVXResource" classname="org.apache.ranger.rest.TestXUserREST" time="0.004"/>
+  <testcase name="test44updateXPermMap" classname="org.apache.ranger.rest.TestXUserREST" time="0"/>
+  <testcase name="test45updateXPermMap" classname="org.apache.ranger.rest.TestXUserREST" time="0"/>
+  <testcase name="test46updateXPermMap" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test47deleteXPermMap" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test48searchXPermMaps" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test49countXPermMaps" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test4secureCreateXGroup" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test50getXAuditMapVXAuditMapNull" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test51getXAuditMapNull" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test52getXAuditMap" classname="org.apache.ranger.rest.TestXUserREST" time="0.002"/>
+  <testcase name="test53createXAuditMap" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test54createXAuditMapVxResourceNull" classname="org.apache.ranger.rest.TestXUserREST" time="0.002"/>
+  <testcase name="test55createXAuditMapNull" classname="org.apache.ranger.rest.TestXUserREST" time="0"/>
+  <testcase name="test56updateXAuditMap" classname="org.apache.ranger.rest.TestXUserREST" time="0.002"/>
+  <testcase name="test57updateXAuditMapNull" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test58updateXAuditMapVXResourceNull" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test59deleteXAuditMap" classname="org.apache.ranger.rest.TestXUserREST" time="0"/>
+  <testcase name="test5updateXGroup" classname="org.apache.ranger.rest.TestXUserREST" time="0"/>
+  <testcase name="test60searchXAuditMaps" classname="org.apache.ranger.rest.TestXUserREST" time="0.002"/>
+  <testcase name="test61countXAuditMaps" classname="org.apache.ranger.rest.TestXUserREST" time="0.002"/>
+  <testcase name="test62getXUserByUserName" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test63getXGroupByGroupName" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test64deleteXUserByUserName" classname="org.apache.ranger.rest.TestXUserREST" time="0"/>
+  <testcase name="test65deleteXUserByUserNametrue" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test66deleteXUserByUserNameNull" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test67deleteXGroupByGroupName" classname="org.apache.ranger.rest.TestXUserREST" time="0"/>
+  <testcase name="test68deleteXGroupByGroupNameNull" classname="org.apache.ranger.rest.TestXUserREST" time="0"/>
+  <testcase name="test69deleteXGroupByGroupNameflase" classname="org.apache.ranger.rest.TestXUserREST" time="0"/>
+  <testcase name="test6secureUpdateXGroup" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test70deleteXGroupAndXUser" classname="org.apache.ranger.rest.TestXUserREST" time="0"/>
+  <testcase name="test71getXUserGroups" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test72getXGroupUsers" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test73getXGroupUsers" classname="org.apache.ranger.rest.TestXUserREST" time="0"/>
+  <testcase name="test74getAuthSessions" classname="org.apache.ranger.rest.TestXUserREST" time="0.014"/>
+  <testcase name="test75getAuthSession" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test76createXModuleDefPermission" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test77getXModuleDefPermission" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test78updateXModuleDefPermission" classname="org.apache.ranger.rest.TestXUserREST" time="0.002"/>
+  <testcase name="test79deleteXModuleDefPermission" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test7modifyGroupsVisibility" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test80searchXModuleDef" classname="org.apache.ranger.rest.TestXUserREST" time="0.009"/>
+  <testcase name="test81countXModuleDef" classname="org.apache.ranger.rest.TestXUserREST" time="0"/>
+  <testcase name="test82createXUserPermission" classname="org.apache.ranger.rest.TestXUserREST" time="0"/>
+  <testcase name="test83getXUserPermission" classname="org.apache.ranger.rest.TestXUserREST" time="0.004"/>
+  <testcase name="test84updateXUserPermission" classname="org.apache.ranger.rest.TestXUserREST" time="0"/>
+  <testcase name="test85deleteXUserPermission" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test86searchXUserPermission" classname="org.apache.ranger.rest.TestXUserREST" time="0"/>
+  <testcase name="test87countXUserPermission" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test88createXGroupPermission" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test89getXGroupPermission" classname="org.apache.ranger.rest.TestXUserREST" time="0"/>
+  <testcase name="test8deleteXGroupTrue" classname="org.apache.ranger.rest.TestXUserREST" time="0"/>
+  <testcase name="test90updateXGroupPermission" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test91deleteXGroupPermission" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test92searchXGroupPermission" classname="org.apache.ranger.rest.TestXUserREST" time="0.002"/>
+  <testcase name="test93countXGroupPermission" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test94modifyUserActiveStatus" classname="org.apache.ranger.rest.TestXUserREST" time="0"/>
+  <testcase name="test95setUserRolesByExternalID" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test96setUserRolesByName" classname="org.apache.ranger.rest.TestXUserREST" time="0"/>
+  <testcase name="test97getUserRolesByExternalID" classname="org.apache.ranger.rest.TestXUserREST" time="0"/>
+  <testcase name="test98getUserRolesByName" classname="org.apache.ranger.rest.TestXUserREST" time="0"/>
+  <testcase name="test99deleteUsersByUserName" classname="org.apache.ranger.rest.TestXUserREST" time="0.001"/>
+  <testcase name="test9deleteXGroupFalse" classname="org.apache.ranger.rest.TestXUserREST" time="0"/>
+</testsuite>

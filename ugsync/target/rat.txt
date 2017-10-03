@@ -1,0 +1,92 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2017-10-03T09:56:30+00:00
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 55
+
+Apache Licensed: 55
+Generated Documents: 0
+
+JavaDocs are generated and so license header is optional
+Generated files do not required license headers
+
+0 Unknown Licenses
+
+*******************************
+
+Unapproved licenses:
+
+
+*******************************
+
+Archives:
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require AL headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc will be marked N
+  AL    /mnt/ugsync/pom.xml
+  AL    /mnt/ugsync/filesourceusersynctool/run-filesource-usersync.sh
+  AL    /mnt/ugsync/ldapconfigchecktool/ldapconfigcheck/pom.xml
+  AL    /mnt/ugsync/ldapconfigchecktool/ldapconfigcheck/conf/input.properties
+  AL    /mnt/ugsync/ldapconfigchecktool/ldapconfigcheck/scripts/run.sh
+  AL    /mnt/ugsync/ldapconfigchecktool/ldapconfigcheck/src/main/java/org/apache/ranger/ldapconfigcheck/CommandLineOptions.java
+  AL    /mnt/ugsync/ldapconfigchecktool/ldapconfigcheck/src/main/java/org/apache/ranger/ldapconfigcheck/LdapConfigCheckMain.java
+  AL    /mnt/ugsync/ldapconfigchecktool/ldapconfigcheck/src/main/java/org/apache/ranger/ldapconfigcheck/UserSync.java
+  AL    /mnt/ugsync/ldapconfigchecktool/ldapconfigcheck/src/main/java/org/apache/ranger/ldapconfigcheck/AuthenticationCheck.java
+  AL    /mnt/ugsync/ldapconfigchecktool/ldapconfigcheck/src/main/java/org/apache/ranger/ldapconfigcheck/LdapConfig.java
+  AL    /mnt/ugsync/src/test/resources/ranger-ugsync-site.xml
+  AL    /mnt/ugsync/src/test/resources/ADSchema.ldif
+  AL    /mnt/ugsync/src/test/java/org/apache/ranger/unixusersync/process/TestUnixUserGroupBuilder.java
+  AL    /mnt/ugsync/src/test/java/org/apache/ranger/unixusersync/process/TestFileSourceUserGroupBuilder.java
+  AL    /mnt/ugsync/src/test/java/org/apache/ranger/usergroupsync/PolicyMgrUserGroupBuilderTest.java
+  AL    /mnt/ugsync/src/test/java/org/apache/ranger/usergroupsync/TestLdapUserGroup.java
+  AL    /mnt/ugsync/src/test/java/org/apache/ranger/usergroupsync/TestRegEx.java
+  AL    /mnt/ugsync/src/test/java/org/apache/ranger/usergroupsync/LdapPolicyMgrUserGroupBuilderTest.java
+  AL    /mnt/ugsync/src/main/java/org/apache/ranger/ldapusersync/process/PolicyMgrUserGroupBuilder.java
+  AL    /mnt/ugsync/src/main/java/org/apache/ranger/ldapusersync/process/CustomSSLSocketFactory.java
+  AL    /mnt/ugsync/src/main/java/org/apache/ranger/ldapusersync/process/LdapUserGroupBuilder.java
+  AL    /mnt/ugsync/src/main/java/org/apache/ranger/ldapusersync/process/LdapDeltaUserGroupBuilder.java
+  AL    /mnt/ugsync/src/main/java/org/apache/ranger/ldapusersync/process/LdapPolicyMgrUserGroupBuilder.java
+  AL    /mnt/ugsync/src/main/java/org/apache/ranger/usersync/util/UserSyncUtil.java
+  AL    /mnt/ugsync/src/main/java/org/apache/ranger/unixusersync/process/FileSourceUserGroupBuilder.java
+  AL    /mnt/ugsync/src/main/java/org/apache/ranger/unixusersync/process/UnixUserGroupBuilder.java
+  AL    /mnt/ugsync/src/main/java/org/apache/ranger/unixusersync/process/PolicyMgrUserGroupBuilder.java
+  AL    /mnt/ugsync/src/main/java/org/apache/ranger/unixusersync/poc/InvalidGroupException.java
+  AL    /mnt/ugsync/src/main/java/org/apache/ranger/unixusersync/poc/ListUserGroupTest.java
+  AL    /mnt/ugsync/src/main/java/org/apache/ranger/unixusersync/poc/ListUserTest.java
+  AL    /mnt/ugsync/src/main/java/org/apache/ranger/unixusersync/poc/RestClientPost.java
+  AL    /mnt/ugsync/src/main/java/org/apache/ranger/unixusersync/poc/ListRangerUserGroup.java
+  AL    /mnt/ugsync/src/main/java/org/apache/ranger/unixusersync/poc/RangerUserGroupMapping.java
+  AL    /mnt/ugsync/src/main/java/org/apache/ranger/unixusersync/poc/ListRangerUser.java
+  AL    /mnt/ugsync/src/main/java/org/apache/ranger/unixusersync/poc/InvalidUserException.java
+  AL    /mnt/ugsync/src/main/java/org/apache/ranger/unixusersync/poc/RangerJSONParser.java
+  AL    /mnt/ugsync/src/main/java/org/apache/ranger/unixusersync/poc/RangerClientUserGroupMapping.java
+  AL    /mnt/ugsync/src/main/java/org/apache/ranger/unixusersync/config/UserGroupSyncConfig.java
+  AL    /mnt/ugsync/src/main/java/org/apache/ranger/unixusersync/model/GetXUserListResponse.java
+  AL    /mnt/ugsync/src/main/java/org/apache/ranger/unixusersync/model/XUserInfo.java
+  AL    /mnt/ugsync/src/main/java/org/apache/ranger/unixusersync/model/XGroupInfo.java
+  AL    /mnt/ugsync/src/main/java/org/apache/ranger/unixusersync/model/MUserInfo.java
+  AL    /mnt/ugsync/src/main/java/org/apache/ranger/unixusersync/model/GetXUserGroupListResponse.java
+  AL    /mnt/ugsync/src/main/java/org/apache/ranger/unixusersync/model/XUserGroupInfo.java
+  AL    /mnt/ugsync/src/main/java/org/apache/ranger/unixusersync/model/GroupUserInfo.java
+  AL    /mnt/ugsync/src/main/java/org/apache/ranger/unixusersync/model/UserGroupList.java
+  AL    /mnt/ugsync/src/main/java/org/apache/ranger/unixusersync/model/UserGroupInfo.java
+  AL    /mnt/ugsync/src/main/java/org/apache/ranger/unixusersync/model/GetXGroupListResponse.java
+  AL    /mnt/ugsync/src/main/java/org/apache/ranger/usergroupsync/UserGroupSync.java
+  AL    /mnt/ugsync/src/main/java/org/apache/ranger/usergroupsync/UserGroupSink.java
+  AL    /mnt/ugsync/src/main/java/org/apache/ranger/usergroupsync/RegEx.java
+  AL    /mnt/ugsync/src/main/java/org/apache/ranger/usergroupsync/AbstractMapper.java
+  AL    /mnt/ugsync/src/main/java/org/apache/ranger/usergroupsync/UserGroupSource.java
+  AL    /mnt/ugsync/src/main/java/org/apache/ranger/usergroupsync/AbstractUserGroupSource.java
+  AL    /mnt/ugsync/src/main/java/org/apache/ranger/usergroupsync/Mapper.java
+ 
+*****************************************************
+ Printing headers for files without AL header...
+ 
+ 

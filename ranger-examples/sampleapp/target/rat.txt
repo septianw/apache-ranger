@@ -1,0 +1,43 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2017-10-03T10:07:20+00:00
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 6
+
+Apache Licensed: 6
+Generated Documents: 0
+
+JavaDocs are generated and so license header is optional
+Generated files do not required license headers
+
+0 Unknown Licenses
+
+*******************************
+
+Unapproved licenses:
+
+
+*******************************
+
+Archives:
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require AL headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc will be marked N
+  AL    /mnt/ranger-examples/sampleapp/pom.xml
+  AL    /mnt/ranger-examples/sampleapp/conf/log4j.xml
+  AL    /mnt/ranger-examples/sampleapp/scripts/run-sampleapp.sh
+  AL    /mnt/ranger-examples/sampleapp/src/main/java/org/apache/ranger/examples/sampleapp/IAuthorizer.java
+  AL    /mnt/ranger-examples/sampleapp/src/main/java/org/apache/ranger/examples/sampleapp/DefaultAuthorizer.java
+  AL    /mnt/ranger-examples/sampleapp/src/main/java/org/apache/ranger/examples/sampleapp/SampleApp.java
+ 
+*****************************************************
+ Printing headers for files without AL header...
+ 
+ 

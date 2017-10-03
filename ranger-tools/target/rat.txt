@@ -1,0 +1,53 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2017-10-03T10:07:33+00:00
+Notes: 1
+Binaries: 0
+Archives: 0
+Standards: 15
+
+Apache Licensed: 15
+Generated Documents: 0
+
+JavaDocs are generated and so license header is optional
+Generated files do not required license headers
+
+0 Unknown Licenses
+
+*******************************
+
+Unapproved licenses:
+
+
+*******************************
+
+Archives:
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require AL headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc will be marked N
+  AL    /mnt/ranger-tools/pom.xml
+  AL    /mnt/ranger-tools/conf/log4j.properties
+  AL    /mnt/ranger-tools/testdata/test_modules.txt
+  AL    /mnt/ranger-tools/scripts/summary.awk
+  AL    /mnt/ranger-tools/scripts/ranger-perftester.sh
+  N     /mnt/ranger-tools/scripts/README.txt
+  AL    /mnt/ranger-tools/scripts/ranger-plugin-perftester.sh
+  AL    /mnt/ranger-tools/src/test/resources/log4j.properties
+  AL    /mnt/ranger-tools/src/test/resources/commandline
+  AL    /mnt/ranger-tools/src/test/java/org/apache/ranger/policyengine/PerfTesterTest.java
+  AL    /mnt/ranger-tools/src/main/java/org/apache/ranger/policyengine/PerfTestClient.java
+  AL    /mnt/ranger-tools/src/main/java/org/apache/ranger/policyengine/RangerPluginPerfTester.java
+  AL    /mnt/ranger-tools/src/main/java/org/apache/ranger/policyengine/PerfTestEngine.java
+  AL    /mnt/ranger-tools/src/main/java/org/apache/ranger/policyengine/PerfTestOptions.java
+  AL    /mnt/ranger-tools/src/main/java/org/apache/ranger/policyengine/RangerPolicyenginePerfTester.java
+  AL    /mnt/ranger-tools/src/main/java/org/apache/ranger/policyengine/CommandLineParser.java
+ 
+*****************************************************
+ Printing headers for files without AL header...
+ 
+ 

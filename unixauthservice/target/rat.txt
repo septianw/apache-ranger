@@ -1,0 +1,57 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2017-10-03T09:56:37+00:00
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 20
+
+Apache Licensed: 20
+Generated Documents: 0
+
+JavaDocs are generated and so license header is optional
+Generated files do not required license headers
+
+0 Unknown Licenses
+
+*******************************
+
+Unapproved licenses:
+
+
+*******************************
+
+Archives:
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require AL headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc will be marked N
+  AL    /mnt/unixauthservice/pom.xml
+  AL    /mnt/unixauthservice/conf.dist/jaas.conf
+  AL    /mnt/unixauthservice/conf.dist/log4j.properties
+  AL    /mnt/unixauthservice/conf.dist/log4j.xml
+  AL    /mnt/unixauthservice/conf.dist/ranger-ugsync-default.xml
+  AL    /mnt/unixauthservice/scripts/install.properties
+  AL    /mnt/unixauthservice/scripts/set_globals.sh
+  AL    /mnt/unixauthservice/scripts/ranger-usersync-services.sh
+  AL    /mnt/unixauthservice/scripts/update_property.py
+  AL    /mnt/unixauthservice/scripts/initd
+  AL    /mnt/unixauthservice/scripts/start.sh
+  AL    /mnt/unixauthservice/scripts/setup.py
+  AL    /mnt/unixauthservice/scripts/setup.sh
+  AL    /mnt/unixauthservice/scripts/templates/installprop2xml.properties
+  AL    /mnt/unixauthservice/scripts/templates/ranger-ugsync-template.xml
+  AL    /mnt/unixauthservice/scripts/updatepolicymgrpassword.py
+  AL    /mnt/unixauthservice/scripts/stop.sh
+  AL    /mnt/unixauthservice/scripts/updatepolicymgrpassword.sh
+  AL    /mnt/unixauthservice/src/main/java/org/apache/ranger/authentication/PasswordValidator.java
+  AL    /mnt/unixauthservice/src/main/java/org/apache/ranger/authentication/UnixAuthenticationService.java
+ 
+*****************************************************
+ Printing headers for files without AL header...
+ 
+ 

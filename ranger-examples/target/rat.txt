@@ -1,0 +1,58 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2017-10-03T10:07:16+00:00
+Notes: 1
+Binaries: 0
+Archives: 0
+Standards: 20
+
+Apache Licensed: 20
+Generated Documents: 0
+
+JavaDocs are generated and so license header is optional
+Generated files do not required license headers
+
+0 Unknown Licenses
+
+*******************************
+
+Unapproved licenses:
+
+
+*******************************
+
+Archives:
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require AL headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc will be marked N
+  AL    /mnt/ranger-examples/pom.xml
+  AL    /mnt/ranger-examples/conditions-enrichers/pom.xml
+  AL    /mnt/ranger-examples/conditions-enrichers/src/test/java/org/apache/ranger/plugin/conditionevaluator/RangerSampleSimpleMatcherTest.java
+  AL    /mnt/ranger-examples/conditions-enrichers/src/main/java/org/apache/ranger/plugin/conditionevaluator/RangerSampleSimpleMatcher.java
+  AL    /mnt/ranger-examples/conditions-enrichers/src/main/java/org/apache/ranger/plugin/contextenricher/RangerSampleProjectProvider.java
+  AL    /mnt/ranger-examples/conditions-enrichers/src/main/java/org/apache/ranger/plugin/contextenricher/RangerSampleCountryProvider.java
+  AL    /mnt/ranger-examples/sampleapp/pom.xml
+  AL    /mnt/ranger-examples/sampleapp/conf/log4j.xml
+  AL    /mnt/ranger-examples/sampleapp/scripts/run-sampleapp.sh
+  AL    /mnt/ranger-examples/sampleapp/src/main/java/org/apache/ranger/examples/sampleapp/IAuthorizer.java
+  AL    /mnt/ranger-examples/sampleapp/src/main/java/org/apache/ranger/examples/sampleapp/DefaultAuthorizer.java
+  AL    /mnt/ranger-examples/sampleapp/src/main/java/org/apache/ranger/examples/sampleapp/SampleApp.java
+  AL    /mnt/ranger-examples/plugin-sampleapp/pom.xml
+  AL    /mnt/ranger-examples/plugin-sampleapp/conf/ranger-policymgr-ssl.xml
+  AL    /mnt/ranger-examples/plugin-sampleapp/conf/ranger-sampleapp-security.xml
+  AL    /mnt/ranger-examples/plugin-sampleapp/conf/ranger-sampleapp-audit.xml
+  AL    /mnt/ranger-examples/plugin-sampleapp/src/main/java/org/apache/ranger/examples/sampleapp/RangerAuthorizer.java
+  AL    /mnt/ranger-examples/plugin-sampleapp/src/main/java/org/apache/ranger/examples/sampleapp/IAuthorizer.java
+  N     /mnt/ranger-examples/README.txt
+  AL    /mnt/ranger-examples/src/main/assembly/sampleapp.xml
+  AL    /mnt/ranger-examples/src/main/assembly/plugin-sampleapp.xml
+ 
+*****************************************************
+ Printing headers for files without AL header...
+ 
+ 

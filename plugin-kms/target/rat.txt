@@ -1,0 +1,57 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2017-10-03T09:56:58+00:00
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 20
+
+Apache Licensed: 20
+Generated Documents: 0
+
+JavaDocs are generated and so license header is optional
+Generated files do not required license headers
+
+0 Unknown Licenses
+
+*******************************
+
+Unapproved licenses:
+
+
+*******************************
+
+Archives:
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require AL headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc will be marked N
+  AL    /mnt/plugin-kms/pom.xml
+  AL    /mnt/plugin-kms/conf/ranger-policymgr-ssl-changes.cfg
+  AL    /mnt/plugin-kms/conf/ranger-kms-audit.xml
+  AL    /mnt/plugin-kms/conf/ranger-kms-audit-changes.cfg
+  AL    /mnt/plugin-kms/conf/ranger-policymgr-ssl.xml
+  AL    /mnt/plugin-kms/conf/ranger-kms-security-changes.cfg
+  AL    /mnt/plugin-kms/conf/ranger-kms-security.xml
+  AL    /mnt/plugin-kms/scripts/enable-kms-plugin.sh
+  AL    /mnt/plugin-kms/src/test/resources/kms/kms-site.xml
+  AL    /mnt/plugin-kms/src/test/resources/kms/dbks-site.xml
+  AL    /mnt/plugin-kms/src/test/resources/ranger-kms-security.xml
+  AL    /mnt/plugin-kms/src/test/java/org/apache/ranger/authorization/kms/authorizer/RangerKmsAuthorizerTest.java
+  AL    /mnt/plugin-kms/src/test/java/org/apache/ranger/authorization/kms/authorizer/DerbyTestUtils.java
+  AL    /mnt/plugin-kms/src/test/java/org/apache/ranger/authorization/kms/authorizer/RangerAdminClientImpl.java
+  AL    /mnt/plugin-kms/src/main/java/org/apache/ranger/services/kms/client/json/model/KMSSchedulerResponse.java
+  AL    /mnt/plugin-kms/src/main/java/org/apache/ranger/services/kms/client/KMSClient.java
+  AL    /mnt/plugin-kms/src/main/java/org/apache/ranger/services/kms/client/KMSResourceMgr.java
+  AL    /mnt/plugin-kms/src/main/java/org/apache/ranger/services/kms/client/KMSConnectionMgr.java
+  AL    /mnt/plugin-kms/src/main/java/org/apache/ranger/services/kms/RangerServiceKMS.java
+  AL    /mnt/plugin-kms/src/main/java/org/apache/ranger/authorization/kms/authorizer/RangerKmsAuthorizer.java
+ 
+*****************************************************
+ Printing headers for files without AL header...
+ 
+ 
