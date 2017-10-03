@@ -2,5 +2,6 @@ pipeline:
   build:
     image: maven
     commands:
+      - cd apache-ranger-0.7.1
       - mvn clean
       - mvn -DskipTests=false clean compile package install assembly:assembly
