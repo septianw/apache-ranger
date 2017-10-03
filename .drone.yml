@@ -1,0 +1,6 @@
+pipeline:
+  build:
+    image: maven
+    commands:
+      - mvn clean
+      - mvn -DskipTests=false clean compile package install assembly:assembly
