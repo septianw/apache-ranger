@@ -7,3 +7,8 @@ pipeline:
       - cd ranger-0.5.0
       - mvn clean
       - mvn -DskipTests=false clean compile package install assembly:assembly
+
+  webhook:
+    image: septianw/droneteleg:init
+    token: ${TELETOKEN}
+    channel: butlerjob
