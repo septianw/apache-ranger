@@ -2,6 +2,8 @@ pipeline:
   build:
     image: maven
     commands:
-      - cd apache-ranger-0.7.1
+      - curl -O https://archive.apache.org/dist/incubator/ranger/0.5.0-incubating/ranger-0.5.0-incubating.tar.gz
+      - tar zxf ranger-0.5.0-incubating.tar.gz
+      - cd apache-ranger-0.5.0
       - mvn clean
       - mvn -DskipTests=false clean compile package install assembly:assembly
