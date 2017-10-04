@@ -1,4 +1,12 @@
 pipeline:
+  restore-cache:
+    image: drillster/drone-volume-cache
+    restore: true
+    mount:
+      - /root/.m2/repository
+    volumes:
+      - /tmp/drone-maven-cache:/cache
+
   build:
     image: maven
     commands:
@@ -7,6 +15,14 @@ pipeline:
       - cd ranger-0.5.0
       - mvn clean
       - mvn -DskipTests=false clean compile package install assembly:assembly
+
+  rebuild-cache:
+    image: drillster/drone-volume-cache
+    rebuild: true
+    mount:
+      - /root/.m2/repository
+    volumes:
+      - /tmp/drone-maven-cache:/cache
 
   webhook:
     image: septianw/droneteleg:init
