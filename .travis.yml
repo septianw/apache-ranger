@@ -15,7 +15,7 @@ deploy:
   secret_access_key:
     secure: O/+Q0y/vhiXUhNKFFPGJSqjBmCwovgVj1+5TwrTq/SufIV7JsGOiKA0uNSa4gwOYEKCusa3Rm64ayTijmOnDZ3npKGDIiyhOapmmlwh3CsuR8lccYO745XLYFHr4C6xGUcb18OuIWAXmg4vMZBFjf/kCNKIK3LCn2OV1ezBXUD7GdCH6c/eOSoB0ar+Su3QcXv6onj4/aNBbO4qLftf5RJvZvFlYkDyy9RPdZ2WFPbtttTJgX+2ZsWun2arQGy02DfCPamvjsGkuB+WmYGtclE7E6OHvhKzmYa5n6+DKmIlOfpRaXZc8bmWc0YARorJkq7donQ85herphyiyKvim9M0wwsA0JHSVbl6XjLEf/xvkOgCSOa7s0dRQ9p6i8t3TGK91knutg1xU8BE2w00hJ5+tzfuhEbHAyDI63DFjwrvkcjuZj5FFrfHhnE9BQmS6WeazQT9Ublmu//tE+kZ0dDLzZAxvDDHN6uoAJ4gYkQ+ngNcK78uhkW+LtyTLLeY/m0+sYKVFoioE7UNEniA6jWbr/ty8AmNsPUXS7ZdJ41zzTsxHnxi8i2NPEujXSPUKhrv3Mh1lSHAuEMY9Jzfn8+H6DGnHKD3YGD8ARI3+KiT0T3OV5vs7UDwqu104aVHwXpQD5o97Dtn/ND+Dd2g+gnLY3afLFOL5nzLYaFD/wWQ=
   bucket: asep-share
-  local-dir: target
+  skip_cleanup: true
   on:
     repo: septianw/apache-ranger
     branch: archive-release
