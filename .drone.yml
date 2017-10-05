@@ -2,9 +2,9 @@ pipeline:
   build:
     image: maven
     commands:
-      - curl -O https://archive.apache.org/dist/ranger/${RELEASE}/apache-ranger-${RELEASE}.tar.gz
-      - tar zxf apache-ranger-${RELEASE}.tar.gz
-      - cd apache-ranger-${RELEASE}
+      - curl -O https://archive.apache.org/dist/incubator/ranger/${TAG}/${ARCHIVE}
+      - tar zxf ${ARCHIVE}
+      - cd ${DIRECTORY}
       - mvn clean
       - mvn -DskipTests=false clean compile package install assembly:assembly
 
@@ -14,7 +14,31 @@ pipeline:
     channel: butlerjob
 
 matrix:
-  RELEASE:
-    - 0.6.3
-    - 0.7.0
-    - 0.7.1
+  include:
+    - ARCHIVE: ranger-0.4.0-incubating.tar.gz
+      TAG: 0.4.0-incubating
+      DIRECTORY: ranger-0.4.0-rc3
+    - ARCHIVE: ranger-0.5.0-incubating.tar.gz
+      TAG: 0.5.0-incubating
+      DIRECTORY: ranger-0.5.0
+    - ARCHIVE: apache-ranger-incubating-0.5.1.tar.gz
+      TAG: 0.5.1-incubating
+      DIRECTORY: apache-ranger-incubating-0.5.1
+    - ARCHIVE: apache-ranger-incubating-0.5.2.tar.gz
+      TAG: 0.5.2-incubating
+      DIRECTORY: apache-ranger-incubating-0.5.2
+    - ARCHIVE: apache-ranger-incubating-0.5.3.tar.gz
+      TAG: 0.5.3-incubating
+      DIRECTORY: apache-ranger-incubating-0.5.3
+    - ARCHIVE: apache-ranger-incubating-0.5.3.tar.gz
+      TAG: 0.5.3-incubating
+      DIRECTORY: apache-ranger-incubating-0.5.3
+    - ARCHIVE: apache-ranger-incubating-0.6.0.tar.gz
+      TAG: 0.6.0-incubating
+      DIRECTORY: apache-ranger-incubating-0.6.0
+    - ARCHIVE: apache-ranger-incubating-0.6.1.tar.gz
+      TAG: 0.6.1-incubating
+      DIRECTORY: apache-ranger-incubating-0.6.1
+    - ARCHIVE: apache-ranger-incubating-0.6.2.tar.gz
+      TAG: 0.6.2-incubating
+      DIRECTORY: apache-ranger-incubating-0.6.2
