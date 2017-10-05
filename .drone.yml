@@ -1,30 +1,20 @@
 pipeline:
-  restore-cache:
-    image: drillster/drone-volume-cache
-    restore: true
-    mount:
-      - /root/.m2/repository
-    volumes:
-      - /tmp/drone-maven-cache:/cache
-
   build:
     image: maven
     commands:
-      - curl -O https://archive.apache.org/dist/incubator/ranger/0.5.0-incubating/ranger-0.5.0-incubating.tar.gz
-      - tar zxf ranger-0.5.0-incubating.tar.gz
-      - cd ranger-0.5.0
+      - curl -O https://archive.apache.org/dist/ranger/${RELEASE}/apache-ranger-${RELEASE}.tar.gz
+      - tar zxf apache-ranger-${RELEASE}.tar.gz
+      - cd apache-ranger-${RELEASE}
       - mvn clean
       - mvn -DskipTests=false clean compile package install assembly:assembly
-
-  rebuild-cache:
-    image: drillster/drone-volume-cache
-    rebuild: true
-    mount:
-      - /root/.m2/repository
-    volumes:
-      - /tmp/drone-maven-cache:/cache
 
   webhook:
     image: septianw/droneteleg:init
     token: ${TELETOKEN}
     channel: butlerjob
+
+matrix:
+  RELEASE:
+    - 0.6.3
+    - 0.7.0
+    - 0.7.1
