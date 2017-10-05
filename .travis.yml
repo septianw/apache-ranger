@@ -1,0 +1,13 @@
+language: java
+
+script:
+  - curl -O https://archive.apache.org/dist/ranger/$RELEASE/apache-ranger-$RELEASE.tar.gz
+  - tar zxf apache-ranger-$RELEASE.tar.gz
+  - cd apache-ranger-$RELEASE
+  - mvn clean
+  - mvn -DskipTests=false clean compile package install assembly:assembly
+
+env:
+  - RELEASE=0.6.3
+  - RELEASE=0.7.0
+  - RELEASE=0.7.1
