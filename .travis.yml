@@ -10,13 +10,12 @@ env:
 - RELEASE=0.7.0
 - RELEASE=0.7.1
 deploy:
-  provider: gcs
-  access_key_id: 139266090592-ckk3iibme6o1tr4oo499pt7ho1rbke30.apps.googleusercontent.com
+  provider: s3
+  access_key_id: AKIAIUH3UOHVRMA65UTQ
   secret_access_key:
-    secure: O/+Q0y/vhiXUhNKFFPGJSqjBmCwovgVj1+5TwrTq/SufIV7JsGOiKA0uNSa4gwOYEKCusa3Rm64ayTijmOnDZ3npKGDIiyhOapmmlwh3CsuR8lccYO745XLYFHr4C6xGUcb18OuIWAXmg4vMZBFjf/kCNKIK3LCn2OV1ezBXUD7GdCH6c/eOSoB0ar+Su3QcXv6onj4/aNBbO4qLftf5RJvZvFlYkDyy9RPdZ2WFPbtttTJgX+2ZsWun2arQGy02DfCPamvjsGkuB+WmYGtclE7E6OHvhKzmYa5n6+DKmIlOfpRaXZc8bmWc0YARorJkq7donQ85herphyiyKvim9M0wwsA0JHSVbl6XjLEf/xvkOgCSOa7s0dRQ9p6i8t3TGK91knutg1xU8BE2w00hJ5+tzfuhEbHAyDI63DFjwrvkcjuZj5FFrfHhnE9BQmS6WeazQT9Ublmu//tE+kZ0dDLzZAxvDDHN6uoAJ4gYkQ+ngNcK78uhkW+LtyTLLeY/m0+sYKVFoioE7UNEniA6jWbr/ty8AmNsPUXS7ZdJ41zzTsxHnxi8i2NPEujXSPUKhrv3Mh1lSHAuEMY9Jzfn8+H6DGnHKD3YGD8ARI3+KiT0T3OV5vs7UDwqu104aVHwXpQD5o97Dtn/ND+Dd2g+gnLY3afLFOL5nzLYaFD/wWQ=
-  bucket: asep-share
-  skip_cleanup: true
-  local-dir: target
+    secure: BP7ZpTpCTLSp6de3haJYD5GOl3Gw9F0QTqbPA92bwc5+ee341Pzl52tSh+U87vWrTxJRhHk91y2ec+WNUp/yWNx94GQkgtblMHWicxEKgTBZkFe9JxZtamI5300EX9bm+oLvAiKhn88AjgYFgMJhrsxHl2WeEW4xdZN4lKlpRVlnULy3ZcCzVpWohbdkhiji2dcjuw6xfiFRmkdwZflOCUs2kiBdxn5G56NSetyBUvYgXwU8ERKr95RH6KYOZkcL5NQe/erkiNY/lBpdUl6TXKDvEtWjViLkGr268KEsm+UOAwTuwHlH7f1bsXTjgJTdojN7ypn5J3CtavoxrbuWHSrJw5jTVSD7eANpHKPQ4g0AjiF2nzNO55ljS3uQQf9Ysyu1MM09MaRTQqdCvPxB5Qe1o1dW1Tc0e0p/zt/QZajZlterx8lZqZgzsV9/SFh2xicM4IV0o9RC23/xgMVkAE/+u3rpKsKEUHw3/ecaQxhTs69mQyTXOD5eQAFOW7Trc4BKsKU49YQTcYb5m0ZLcekfIAwlSDg3Ob5pXQ6dsRXvIS7dd5CJ7kmoH3CPRrV5G12JaGirAthQm8Hs1tpiV9KRtyjc9XN5aoQksRKd9znVsfxJaulP6J9AM8MirSlbCSXi6HgesXKhqOAN3BpYA20I3gKG47NUbnF/SNOz5bE=
+  bucket: asep-buildartefact
+  acl: ''
   on:
     repo: septianw/apache-ranger
     branch: archive-release
