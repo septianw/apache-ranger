@@ -4,6 +4,7 @@ pipeline:
     commands:
       - curl -O https://archive.apache.org/dist/ranger/${RELEASE}/apache-ranger-${RELEASE}.tar.gz
       - tar zxf apache-ranger-${RELEASE}.tar.gz
+      - chmod +x build.sh
       - cd apache-ranger-${RELEASE}
       - ../build.sh
 
